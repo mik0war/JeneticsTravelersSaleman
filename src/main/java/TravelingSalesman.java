@@ -3,11 +3,11 @@ import io.jenetics.engine.*;
 
 public class TravelingSalesman {
     private static final double[][] MATRIX = new double[][]{
-            {100, 1, 3, 4, 5},
-            {1, 100, 1, 4, 8},
-            {3, 1, 100, 5, 1},
-            {4, 4, 5, 100, 2},
-            {5, 8, 1, 2, 100}
+            {0, 1, 3, 4, 5},
+            {1, 0, 1, 4, 8},
+            {3, 1, 0, 5, 1},
+            {4, 4, 5, 0, 2},
+            {5, 8, 1, 2, 0}
     };
 
     private static double eval(final int[] var) {
